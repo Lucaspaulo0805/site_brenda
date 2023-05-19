@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+header {
+    background-color: rgb(238, 238, 238);
+    color: rgb(100, 65, 0);
+    text-align: center;
+}
+
+header > h1 {
+    padding: 10px 10px 40px 10px;
+    font-variant: small-caps;
+    font-size: 3vw;
+}
