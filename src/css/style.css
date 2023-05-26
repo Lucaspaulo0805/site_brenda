@@ -9,6 +9,7 @@ header {
     justify-content: center;
     height: 120px;
     background-color: rgb(255, 255, 255);
+
 }
 .container {
     display: flex;
@@ -22,6 +23,8 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     letter-spacing: 3px;
+    text-transform: uppercase;
+
 
 
 }
