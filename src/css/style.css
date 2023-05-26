@@ -8,7 +8,7 @@ header {
     display: flex;
     justify-content: center;
     height: 120px;
-    background-color: rgb(149, 149, 149);
+    background-color: rgb(255, 255, 255);
 }
 .container {
     display: flex;
@@ -18,7 +18,12 @@ header {
 .nome {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(96, 96, 96);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+
+
 }
 .menu {
     border-top: 1px bolder black;
