@@ -15,9 +15,10 @@ header {
     justify-content: space-between;
     width: 990px;
 }
-.logo {
+.nome {
     display: flex;
     align-items: center;
+    color: white;
 }
 .menu {
     border-top: 1px bolder black;
