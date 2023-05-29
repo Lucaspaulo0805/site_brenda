@@ -3,12 +3,14 @@
 body {
     margin: 0;
     padding: 0;
+    height: 2000px;
+    
 }
 header {
     display: flex;
     justify-content: center;
-    height: 120px;
-    background-color: rgb(255, 255, 255);
+    height: 100px;
+    background-color: #FFFFFF;
 
 }
 .container {
@@ -29,10 +31,14 @@ header {
 
 }
 .menu {
-    border-top: 1px bolder black;
+    width: 100%;
     display: flex;
     align-items: center;
-    background-color: rgb(235, 235, 235); 
+    background-color: #53565a;
+    font-family: 'Courier New', Courier, monospace;
+}
+.fixed{
+    position: fixed;
 }
 nav ul, 
 nav li {
@@ -51,9 +57,9 @@ nav a {
     text-transform: uppercase;
     color: rgb(188, 188, 188);
 }
-nav .active a,
 nav a:hover {
     color: black;
+    
 }
 .banner {
     display: flex;
