@@ -98,7 +98,6 @@ nav a:hover {
 footer{
     width: 100%;
     background-color: aliceblue;
-    position: fixed;
     bottom: 0;
     left: 0;
 }
@@ -109,3 +108,5 @@ footer p {
     margin: 0;
     background-color: aliceblue;
 }
+
+projetos-home{}
