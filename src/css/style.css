@@ -4,9 +4,9 @@ body {
     margin: 0;
     padding: 0;
     height: 2000px;
-    align-items: center;
+    /* align-items: center;
     flex-direction: center;
-    justify-content: center;
+    justify-content: center; */
     box-sizing: border-box;
 }
 header {
@@ -39,11 +39,9 @@ header {
     font-family: 'Courier New', Courier, monospace;
 }
 .fixed{
-    position: fixed;
     overflow: hidden;
     width: 100%;
     display: block;
-    float: left;
 }
 nav ul, 
 nav li {
@@ -75,7 +73,6 @@ nav a:hover {
     background-color: rgb(255, 235, 235);
     background-position: center;
     background-size: cover;
-    height: 500px; /*altura falsa só pra aparecer imagem*/
 }
 .column {
     flex-direction: column;
@@ -109,4 +106,20 @@ footer p {
     background-color: aliceblue;
 }
 
-projetos-home{}
+.projetos-home{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link-projetos-home{
+    max-width: 25%;
+    margin: 10px;
+}
+
+.imagem-projetos-home{
+    max-width: 90%;
+}
