@@ -18,8 +18,10 @@
     font-family: 'Thin', 'Light', 'Regular';
 }
 html, body {
+    height: 100vw;
     min-height: 100vw;
     box-sizing: border-box;
+    /*height:2000px;*/
    
 }
 header {
@@ -34,22 +36,28 @@ header {
     overflow: hidden; /*checar nescecidade*/
     width: 100%; 
 }
+.logo {
+    display: flex;
+    border-left: 20px;
+    background-color: rgb(255, 255, 255);
+}
 .container-header {
     display: flex;
     justify-content: space-between;/*checar nescecidade*/
     width: 100%;
     background-color: rgb(255, 255, 255);
     margin: auto;
+    background-color: rgb(255, 255, 255);
 }
 .nome {
     display: flex;
     align-items: center;
     color: #53565a;
     font-size: 18px;
-    letter-spacing: 5px; /*espaço entre letras*/
+    letter-spacing: 4px; /*espaço entre letras*/
     text-transform: uppercase;
-    margin: auto;
     text-align: center;
+    background-color: rgb(255, 255, 255);
 }
 .menu {
     width: 100%;
@@ -104,15 +112,18 @@ nav a:hover {
 #depo {
     display: flex;
     justify-content: center;
+ 
 }
 #texto-depo {
-    background-color:antiquewhite;
+    text-align: center;
+    background-color:rgb(255, 255, 255);
     width: 300px;
     height: 300px;
     margin: 20px;
 }
-#imagem-depo {
-    background-color:rgb(229, 171, 94);
+
+#imagem-depo img{
+    
     width: 300px;
     height: 300px;
     margin: 20px;
@@ -130,6 +141,10 @@ footer p {
     padding-left: 40vw;
     font-size: 13px;
     background-color: #53565a;
-    color: white;
+    color:rgb(192, 192, 192);
+}
+footer img {
+    height: 30px;
+    right: 30px;
 }
 
