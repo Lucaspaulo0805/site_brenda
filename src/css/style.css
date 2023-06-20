@@ -1,160 +1,142 @@
 @charset "UTF-8";
 
 @font-face {
-    /*font-family: 'Thin';
-    src: url("../assets/fonts/Roboto/Roboto-Thin.ttf") format("truetype");*/
-    
     font-family: 'Light';
     src: url("../assets/fonts/Roboto/Roboto-Light.ttf") format("truetype");
-    
-    /*font-family: 'Regular';
-    src: url("../assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;*/
 }
-*{
-    margin: 0;
-    padding: 0;
+
+* {
     font-family: 'Thin', 'Light', 'Regular';
 }
-html, body {
-    height: 100vw;
-    min-height: 100vw;
-    box-sizing: border-box;
-    /*height:2000px;*/
-   
+
+/* Resetando o user agent stylesheet no chrome */
+body {
+    margin: 0px;
 }
-header {
+
+.conteudo-cabecalho {
     display: flex;
-    justify-content: center; /*checar nescecidade*/
     height: 100px;
     background-color: #ffffff;
-    overflow: hidden; /*checar nescecidade*/ 
 }
-.topo{
+
+.cabecalho {
     position: fixed;
-    overflow: hidden; /*checar nescecidade*/
-    width: 100%; 
+    width: 100%;
 }
+
 .logo {
     display: flex;
     border-left: 20px;
     background-color: rgb(255, 255, 255);
 }
+
 .container-header {
     display: flex;
-    justify-content: space-between;/*checar nescecidade*/
     width: 100%;
     background-color: rgb(255, 255, 255);
     margin: auto;
     background-color: rgb(255, 255, 255);
 }
+
 .nome {
     display: flex;
     align-items: center;
     color: #53565a;
     font-size: 18px;
-    letter-spacing: 4px; /*espaço entre letras*/
+    letter-spacing: 4px;
     text-transform: uppercase;
     text-align: center;
     background-color: rgb(255, 255, 255);
 }
+
 .nome a {
     text-decoration: none;
 }
-.menu {
+
+.conteudo-menu {
     width: 100%;
     display: flex;
-    align-items: center; /*checar nescecidade*/
     background-color: #53565a;
-    margin: auto;
-    text-align: center;
 }
 
-nav ul, 
+nav ul,
 nav li {
     list-style: none;
-    background-color:#53565a;
+    background-color: #53565a;
     display: flex;
     margin: auto;
     max-width: 100%;
     padding-left: 60px;
-    
 }
+
 nav a {
-    display: block; /*checar nescecidade*/
     padding: 11px;
     text-decoration: none;
     color: rgb(192, 192, 192);
 }
+
 nav a:hover {
     color: black;
     font-weight: bold;
     transition: 0.5s;
-    
 }
-.projetos-home{
+
+.secao-vazia{
+    min-height: 142px;
+}
+
+.secao-projetos {
+    background-color: rgb(248, 248, 248);
+    padding: 10px;
+}
+
+.projetos-home {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
     flex-direction: row;
     align-items: center;
-
-    padding-top: 20vw;
 }
 
-.link-projetos-home{
+.link-projetos-home {
     max-width: 25%;
     margin: 10px;
-
-    
 }
 
-
-.imagem-projetos-home{
+.imagem-projetos-home {
     max-width: 90%;
 }
 
-
-
-#depo {
+.secao-sobre-mim {
     display: flex;
     justify-content: center;
- 
+
 }
-#texto-depo {
+
+#texto-sobre-mim {
     text-align: center;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     width: 300px;
     height: 300px;
     margin: 20px;
 }
 
-#imagem-depo img{
-    
+#imagem-depo img {
+
     width: 300px;
     height: 300px;
     margin: 20px;
 }
-footer{
+
+.rodape {
     background-color: #53565a;
-    justify-content: center;
-    width: 100%;
     padding: 10px;
-    flex-shrink: 0;
-    bottom: 0; /*checar nescecidade*/
-    left: 0; /*checar nescecidade*/
-}
-footer p {
-    padding-left: 40vw;
     font-size: 13px;
-    background-color: #53565a;
-    color:rgb(192, 192, 192);
-}
-footer img {
-    height: 30px;
-    right: 30px;
-    background-color: #53565a;
+    color: rgb(192, 192, 192);
 }
 
+.rodape #desenvolvido-por{
+    text-align: center;
+}
