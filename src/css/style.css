@@ -36,7 +36,6 @@ body {
     width: 100%;
     background-color: rgb(255, 255, 255);
     margin: auto;
-    background-color: rgb(255, 255, 255);
 }
 
 .nome {
@@ -52,16 +51,17 @@ body {
 
 .nome a {
     text-decoration: none;
+    color: #53565a;
 }
 
 .conteudo-menu {
     width: 100%;
     display: flex;
-    background-color: #53565a;
+    background-color: #c80e0e;
 }
 
-nav ul,
-nav li {
+.conteudo-menu ul,
+.conteudo-menu li {
     list-style: none;
     background-color: #53565a;
     display: flex;
@@ -70,15 +70,14 @@ nav li {
     padding-left: 60px;
 }
 
-nav a {
+.conteudo-menu a {
     padding: 11px;
     text-decoration: none;
     color: rgb(192, 192, 192);
 }
 
-nav a:hover {
-    color: black;
-    font-weight: bold;
+.conteudo-menu a:hover {
+    color: rgb(255, 255, 255);
     transition: 0.5s;
 }
 
@@ -123,7 +122,7 @@ nav a:hover {
     margin: 20px;
 }
 
-#imagem-depo img {
+#imagem-sobre-mim img {
 
     width: 300px;
     height: 300px;
@@ -133,10 +132,13 @@ nav a:hover {
 .rodape {
     background-color: #53565a;
     padding: 10px;
-    font-size: 13px;
+    font-size: 10px;
     color: rgb(192, 192, 192);
 }
-
+.rodape h3, h6 {
+    margin: 0;
+    
+}
 .rodape #desenvolvido-por{
     text-align: center;
 }
