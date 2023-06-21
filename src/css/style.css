@@ -57,7 +57,7 @@ body {
 .conteudo-menu {
     width: 100%;
     display: flex;
-    background-color: #c80e0e;
+    background-color: #53565a;
 }
 
 .conteudo-menu ul,
@@ -71,14 +71,14 @@ body {
 }
 
 .conteudo-menu a {
-    padding: 11px;
+    padding: 10px;
     text-decoration: none;
     color: rgb(192, 192, 192);
 }
 
 .conteudo-menu a:hover {
     color: rgb(255, 255, 255);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .secao-vazia{
