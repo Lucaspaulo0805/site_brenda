@@ -13,45 +13,43 @@
 body {
     margin: 0px;
 }
-
-.conteudo-cabecalho {
-    display: flex;
-    height: 100px;
-    background-color: #ffffff;
-}
-
 .cabecalho {
     position: fixed;
     width: 100%;
 }
+.conteudo-cabecalho {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: #ffffff;
+}
 
-.logo {
+.conteudo-cabecalho-logo {
     display: flex;
     border-left: 20px;
     background-color: rgb(255, 255, 255);
 }
 
-.container-header {
+.conteudo-cabecalho-nome {
     display: flex;
-    width: 100%;
     background-color: rgb(255, 255, 255);
-    margin: auto;
 }
 
 .nome {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     color: #53565a;
     font-size: 18px;
     letter-spacing: 4px;
     text-transform: uppercase;
-    text-align: center;
     background-color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
-.nome a {
-    text-decoration: none;
-    color: #53565a;
+.nome * {
+    margin: 0;
 }
 
 .conteudo-menu {
@@ -82,7 +80,7 @@ body {
 }
 
 .secao-vazia{
-    min-height: 142px;
+    min-height: 180px;
 }
 
 .secao-projetos {
@@ -90,7 +88,7 @@ body {
     padding: 10px;
 }
 
-.projetos-home {
+.secao-projetos-grid {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -99,12 +97,20 @@ body {
     align-items: center;
 }
 
+.link-projetos-home-tag {
+    background-color: #53565a;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+}
+
 .link-projetos-home {
-    max-width: 25%;
+    max-width: 40%;
     margin: 10px;
 }
 
-.imagem-projetos-home {
+.link-projetos-home-imagem {
     max-width: 90%;
 }
 
@@ -141,4 +147,5 @@ body {
 }
 .rodape #desenvolvido-por{
     text-align: center;
+    font-size: 10px;
 }
