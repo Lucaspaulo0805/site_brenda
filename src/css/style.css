@@ -97,27 +97,34 @@ body {
     align-items: center;
 }
 
+.link-projetos-home {
+    max-width: 40%;
+    margin: 10px;
+}
+
 .link-projetos-home-tag {
     background-color: #53565a;
     margin-top: 30px;
     text-decoration: none;
     color: #ffffff;
     padding: 5px;
-}
 
-.link-projetos-home {
-    max-width: 40%;
-    margin: 10px;
+    opacity: ;
 }
 
 .link-projetos-home-imagem {
     max-width: 90%;
+
+	transition: .3s ease-in-out;
+}
+
+.link-projetos-home-imagem:hover{
+    opacity: .5;
 }
 
 .secao-sobre-mim {
     display: flex;
     justify-content: center;
-
 }
 
 #texto-sobre-mim {
@@ -142,8 +149,7 @@ body {
     color: rgb(192, 192, 192);
 }
 .rodape h3, h6 {
-    margin: 0;
-    
+    margin: 0;   
 }
 .rodape #desenvolvido-por{
     text-align: center;
