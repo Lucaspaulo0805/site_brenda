@@ -14,11 +14,11 @@
     <header class="cabecalho">
         <div class="conteudo-cabecalho">
             <div class="conteudo-cabecalho-logo">
-                <svg xmlns:mydata="http://www.w3.org/2000/svg" mydata:contrastcolor="ffffff" mydata:template="InvertedHex1"
-                    mydata:presentation="2.5" mydata:layouttype="undefined" mydata:specialfontid="undefined"
-                    mydata:id1="789" mydata:id2="188" mydata:companyname="BR" mydata:companytagline="INTERIORES"
-                    version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    viewBox="1 150 250 180">
+                <svg xmlns:mydata="http://www.w3.org/2000/svg" mydata:contrastcolor="ffffff"
+                    mydata:template="InvertedHex1" mydata:presentation="2.5" mydata:layouttype="undefined"
+                    mydata:specialfontid="undefined" mydata:id1="789" mydata:id2="188" mydata:companyname="BR"
+                    mydata:companytagline="INTERIORES" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1 150 250 180">
                     <g fill="#53565a" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt"
                         stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
                         font-family="none" font-weight="none" font-size="none" text-anchor="none"
@@ -50,7 +50,7 @@
             <ul>
                 <li class="active"><a href="../index.html">Início</a></li>
                 <li><a href="sobre-mim.html">Sobre mim</a></li>
-                <li><a href="curso.html">Cursos</a></li>
+                <li><a href="formacao.html">Formação</a></li>
                 <li><a href="projetos.html">Projetos</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
@@ -59,6 +59,47 @@
 
     <section class="secao-vazia"></section>
 
+    <section class="configuracoes-paginas">
+
+        <div class="configuracoes-formulario">
+            <!--<form action="formmulario">
+                <input class="name" type="text" placeholder="Nome:"><br>
+                <input type="email" placeholder="Email"><br>
+                <input type="text" placeholder="Digite sua mensagem aqui..."><br>
+                <input type="submit">
+            </form>
+        
+            
+                .configuracoes-formulario{
+                    display: flex;
+                    align-items: center; /*Alinhamento vertical*/
+                    justify-content: center; /*Alinhamento horizontal*/
+                background-color: #d2d2d2;
+                    width: 600px;
+                    height: 300px;
+
+                }
+
+
+        -->
+
+            <form name="meu_form">
+
+                <h1 class="teste-nome-formulario">Entre em contato</h1>
+
+                <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
+                <label for="nome">Nome</label>
+
+                <input type="email" id="emailid" placeholder=" Email" name="email" />
+                <label for="email">Email</label>
+
+                <textarea placeholder="Digite sua mensagem aqui..."></textarea>
+
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+            </form>
+        </div>
+
+    </section>
 
     <a href="https://wa.me/5521973803297" target="_blank">Whatsapp</a>
 
