@@ -161,14 +161,13 @@ body {
 }
 
 /*Página Projetos --------------------------------------*/
-.projetos {
+.area-projetos {
     margin: 15px;
     display: flex;
     flex-wrap: wrap;
 }
 
-
-.area-projetos {
+.projetos {
     display: block;
     margin: 3px;
     width: 500px;
